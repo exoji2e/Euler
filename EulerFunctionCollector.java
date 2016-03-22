@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.math.BigInteger;
 public abstract class EulerFunctionCollector {
 	
 	public ArrayList<Long> primeList(long n) {
@@ -8,7 +9,8 @@ public abstract class EulerFunctionCollector {
 			boolean survived = true;
 			int j = 0;
 			long nxtprime = primes.get(j);
-			while(nxtprime*nxtprime<=i) {
+			long sqi = (long) Math.sqrt(i);
+			while(nxtprime<=sqi) {
 				if (i%nxtprime == 0) {
 					survived = false;
 					break;
