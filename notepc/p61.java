@@ -2,7 +2,7 @@ package notepc;
 import java.util.ArrayList;
 
 
-public class p61 {
+public class P61 {
 	static class CyclicNumbers {
 		int sum = 0;
 		int [] arrval = new int[9];

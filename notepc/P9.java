@@ -7,7 +7,7 @@ package notepc;
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
-public class Problem_9 {
+public class P9 {
 	public static void main(String args[]) {
 		for (int a = 1; a<998; a++) {
 			for (int b = 1; b<998; b++) {

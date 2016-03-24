@@ -9,7 +9,7 @@ package notepc;
 
 
 import java.util.Scanner;
-public class Problem_10 {
+public class P10 {
 		
 		
 		

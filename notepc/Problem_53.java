@@ -12,10 +12,10 @@ public class Problem_53 {
         int Cnt = 0;
         for(int n = 1; n<N; n++) {
             for(int k = 1; k<=n; k++) {
-                pascalTri[k][n] = pascalTri[k-1][n-1] + pascalTri[k][n-1];
-                if(pascalTri[k][n] > 1000000) {
+                pascT[k][n] = pascT[k-1][n-1] + pascT[k][n-1];
+                if(pascT[k][n] > 1000000) {
                     Cnt++;
-                    pascalTri[k][n] = 1000001;
+                    pascT[k][n] = 1000001;
                 }
             }
         }

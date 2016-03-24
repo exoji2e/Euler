@@ -9,8 +9,8 @@ package notepc;
 
 
 import java.util.Scanner;
-public class P6 extends EulerProblem {
-	problemNumber = 6;
+public class P6 {//extends EulerProblem { soon.
+	//problemNumber = 6;
     
 	public static void main(String[] args) {
 			

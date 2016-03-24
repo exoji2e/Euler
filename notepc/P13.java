@@ -7,7 +7,7 @@ package notepc;
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
-public class Problem_13 {
+public class P13 {
 	public static void main(String[] args) {
 		String a1 = "37107287533902102798797998220837590246510135740250";
 		String a2 = "46376937677490009712648124896970078050417018260538";
@@ -215,4 +215,5 @@ public class Problem_13 {
 		System.out.println(sum);
 	}
 }
+//Uhm ok dude, use an array maybe? /4 years later
 		

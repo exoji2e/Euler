@@ -3,7 +3,7 @@ public class Problem_104 {
     public static String firstPrm(String s){
         if (s.length() > 1) {
             for(int i = 0; i<s.length()-1;i++) {
-                if (charAt(i) > (charAt(i+1)) {
+                if (s.charAt(i) > s.charAt(i+1)) {
                     s = s.substring(0,i) + s.substring(i+1,i+2)+ s.substring(i,i+1) + s.substring(i+2,s.length());
                 }
             }

@@ -15,7 +15,7 @@
 
 */
 import java.util.Scanner;
-public class Problem_50_isNP {
+public class P50 {
     
     public static boolean isNP(long N) { //Metod som kontrollerar om ett tal är ett primtal
         if (N == 2) {

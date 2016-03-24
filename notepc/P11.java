@@ -7,7 +7,7 @@ package notepc;
 //  Copyright 2012 __MyCompanyName__. All rights reserved.
 //
 
-public class Problem_11 {
+public class P11 {
 	public static void main(String[] args) {
 		int produkt = 0;
 		int a;
@@ -67,3 +67,4 @@ public class Problem_11 {
 		System.out.println(produkt);
 	}
 }
+//Lol wtf is this code.. /4 years later.
